@@ -166,6 +166,7 @@ public class DevModeHandler implements Serializable {
      * @param configuration
      *            deployment configuration
      * @return the instance in case everything is alright, null otherwise
+     * @throws IOException
      */
     public static DevModeHandler createInstance(DeploymentConfiguration configuration) {
 
